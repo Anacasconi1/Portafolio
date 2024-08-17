@@ -1,0 +1,26 @@
+.navbar-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    font-size: small;
+    background-color: #272626;
+    width: 300px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 0px 0px 0px 20px;
+}
+
+.navbar-btns {
+    color: #474747;
+}
+
+.navbar-btns:hover {
+    color: azure;
+}
+
+.navbar-btns:focus{
+    color: #96765a;
+}

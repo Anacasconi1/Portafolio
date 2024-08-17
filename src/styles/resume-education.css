@@ -1,0 +1,24 @@
+.education-card {
+    margin-bottom: 10px;
+}
+
+.education-card h6 {
+    color: #383634;
+    font-size: 10px;
+}
+
+.education-card h5 {
+    width: fit-content;
+    margin-right: 10px;
+}
+.education-card hr {
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid white;
+}
+
+.education-card div {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}

@@ -1,0 +1,36 @@
+.proyect{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 200px;
+    background-color: #272626;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+    transition: all 300ms;
+}
+
+.proyect:hover{
+    opacity: 1;
+    transform: scale(1.03);
+    background-color: #383634;
+}
+
+.proyect p {
+    font-size: x-small;
+}
+
+.proyect img {
+    border-radius: 10px;
+}
+
+.proyects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.skills-container{
+    margin-top: 20px;
+}

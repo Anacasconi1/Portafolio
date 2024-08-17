@@ -1,0 +1,41 @@
+.experience-card {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: #272626;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+    transition: all 300ms;
+}
+
+.skills-developed{
+    font-style: italic;
+    font-size: smaller;
+    font-weight: 600;
+}
+
+.dates{
+    color: #575452;
+    font-size: 10px;
+}
+
+.experience-card:hover {
+    opacity: 1;
+    transform: scale(1.03);
+    background-color: #383634;
+}
+
+.skills-list li{
+    font-size: small;
+    text-align: center;
+    list-style: "✔";
+    list-style-position: inside;
+}
+
+.skills-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-flow: row;
+    gap: 5px;
+}
