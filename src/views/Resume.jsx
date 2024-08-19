@@ -6,7 +6,7 @@ export const Resume = () => {
         <>
         <div className="resume-title">
             <h1 className="seccion-title">Curriculum Vitae</h1>
-            <a href="src/assets/curriculum-ana.pdf" download="curriculum-ana.pdf" >
+            <a href="/curriculum-ana.pdf" download="curriculum-ana.pdf" >
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="15px"
