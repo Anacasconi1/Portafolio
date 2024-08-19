@@ -1,10 +1,25 @@
-import '../styles/resume-education.css'
-import '../styles/resume-experience.css'
+import "../styles/resume-education.css";
+import "../styles/resume-experience.css";
 
 export const Resume = () => {
     return (
         <>
+        <div className="resume-title">
             <h1 className="seccion-title">Curriculum Vitae</h1>
+            <a href="../assets/Currículum.pdf" download={"Currículum.pdf"} >
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="15px"
+                    viewBox="0 0 24 24"
+                >
+                    <path
+                        fill="#ccb8b8"
+                        d="m12 16l-5-5l1.4-1.45l2.6 2.6V4h2v8.15l2.6-2.6L17 11zm-6 4q-.825 0-1.412-.587T4 18v-3h2v3h12v-3h2v3q0 .825-.587 1.413T18 20z"
+                    />
+                </svg>
+            </a>
+        </div>
+            
             <hr className="main-line" />
             <div className="subtitle-main">
                 <svg
@@ -67,14 +82,16 @@ export const Resume = () => {
             <div className="resume-experience">
                 <div className="experience-card">
                     <h5>HENRY - Teacher Assistant</h5>
-                    <h6 className='dates'>JULIO 2024 - ACTUALMENTE</h6>
+                    <h6 className="dates">JULIO 2024 - ACTUALMENTE</h6>
                     <p className="main-text">
                         Enseñé planificacion de proyectos y la adopcion de
                         mejores prácticas de programación, guiando a los
                         estudiantes en la creacion del software bien
                         estructurado y mantenible.
                     </p>
-                    <h6 className='skills-developed'>Habilidades desarrolladas ➡</h6>
+                    <h6 className="skills-developed">
+                        Habilidades desarrolladas ➡
+                    </h6>
                     <ul className="skills-list">
                         <li>Comunicación</li>
                         <li>Liderazgo de equipos</li>
@@ -84,7 +101,7 @@ export const Resume = () => {
                 </div>
                 <div className="experience-card">
                     <h5>La Terminal Ruin-Bar</h5>
-                    <h6 className='dates'>SEPTIEMBRE 2023 - DICIEMBRE 2023</h6>
+                    <h6 className="dates">SEPTIEMBRE 2023 - DICIEMBRE 2023</h6>
                     <p className="main-text">
                         Durante este empleo temporal como cajera, fui
                         responsable de manejar transacciones diarias, asistir a
@@ -95,7 +112,9 @@ export const Resume = () => {
                         garantizar un flujo de caja fluido y resolver cualquier
                         inconveniente de manera efectiva
                     </p>
-                    <h6 className='skills-developed'>Habilidades desarrolladas ➡</h6>
+                    <h6 className="skills-developed">
+                        Habilidades desarrolladas ➡
+                    </h6>
                     <ul className="skills-list">
                         <li>Atención al cliente</li>
                         <li>Gestión de efectivo</li>
@@ -107,7 +126,7 @@ export const Resume = () => {
                 </div>
                 <div className="experience-card">
                     <h5>La Termi Ruin-Bar</h5>
-                    <h6 className='dates'>JUNIO 2022 - ENERO 2023</h6>
+                    <h6 className="dates">JUNIO 2022 - ENERO 2023</h6>
                     <p className="main-text">
                         En mi rol como camarera, me encargué de recibir y
                         atender a los clientes, tomar pedidos, servir alimentos
@@ -118,7 +137,9 @@ export const Resume = () => {
                         enfoque constante en la satisfacción del cliente en un
                         entorno dinámico y de ritmo rápido.
                     </p>
-                    <h6 className='skills-developed'>Habilidades desarrolladas ➡</h6>
+                    <h6 className="skills-developed">
+                        Habilidades desarrolladas ➡
+                    </h6>
                     <ul className="skills-list">
                         <li>Atención al cliente</li>
                         <li>Gestión de Pedidos y Efectivos</li>

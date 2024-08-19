@@ -75,7 +75,12 @@ header {
   padding-top: 50px;
 }
 
-
+.resume-title{
+  display: flex;
+  align-items: center;
+  width: 40%;
+  justify-content: space-between;
+}
 
 a, li{
   text-decoration: none;
