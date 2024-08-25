@@ -42,15 +42,16 @@ body, html {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 30vh;
-    width: 40vw;
+    height: 22vh;
+    width: 80vw;
   }
   .contact-container{
-    width: 30vw;
+    width: 80vw;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-auto-flow: row;
-    gap: 0.7vw;
+    justify-items: center;
+    gap: 2vw;
     height: 10vh;
   }
   .contact-boxes{
@@ -62,6 +63,7 @@ body, html {
     margin-left: 0;
   }
   .general-container{
-    height: 60vh;
+    height: 50vh;
+    width: 80vw;
   }
 }
