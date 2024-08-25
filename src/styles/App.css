@@ -7,7 +7,7 @@
   background-color: rgb(12, 12, 12);
   width: 15vw;
   padding: 1.5vw;
-  border-radius: 1.25rem;
+  border-radius: 1vw;
   height: 80vh;
 }
 
@@ -27,7 +27,7 @@
   display: flex;
   padding: 0.6rem;
   background-color: #272626;
-  border-radius: 0.9rem;
+  border-radius: 1vw;
   margin-bottom: 0.6rem;
 }
 
@@ -70,9 +70,9 @@ header {
   width: 60vw;
   height: 80vh;
   background-color: rgb(12, 12, 12);
-  border-radius: 1.25rem;
+  border-radius: 1.5vw;
   position: relative;
-  padding: 1.25rem;
+  padding: 1.8vw;
   overflow-y: scroll;
   scrollbar-width: none;
 }
@@ -82,7 +82,6 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-grow: 5;
   max-width: 100vw;
   gap: 2%;
 }
@@ -93,7 +92,7 @@ header {
 .resume-title{
   display: flex;
   align-items: center;
-  width: 40%;
+  width: 35%;
   justify-content: space-between;
 }
 
