@@ -1,23 +1,23 @@
 .experience-card {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 0.5vh;
     background-color: #272626;
-    border-radius: 20px;
-    padding: 10px;
-    margin-bottom: 10px;
+    border-radius: 1.25rem;
+    padding: 1vw;
+    margin-bottom: 2vh;
     transition: all 300ms;
 }
 
 .skills-developed{
     font-style: italic;
-    font-size: smaller;
+    font-size: 1.1vw;
     font-weight: 600;
 }
 
 .dates{
     color: #575452;
-    font-size: 10px;
+    font-size: 0.8vw;
 }
 
 .experience-card:hover {
@@ -27,7 +27,7 @@
 }
 
 .skills-list li{
-    font-size: small;
+    font-size: 1vw;
     text-align: center;
     list-style: "✔";
     list-style-position: inside;
@@ -37,5 +37,5 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-auto-flow: row;
-    gap: 5px;
+    gap: 0.3vh;
 }

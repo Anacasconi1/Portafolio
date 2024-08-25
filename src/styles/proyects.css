@@ -1,12 +1,13 @@
 .proyect{
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: space-evenly;
-    width: 200px;
+    width: 16vw;
     background-color: #272626;
-    border-radius: 20px;
-    padding: 10px;
-    margin-bottom: 10px;
+    border-radius: 1.25rem;
+    padding: 2vh;
+    margin-bottom: 2vh;
     transition: all 300ms;
 }
 
@@ -17,20 +18,21 @@
 }
 
 .proyect p {
-    font-size: x-small;
+    font-size: 0.9vw;
 }
 
 .proyect img {
-    border-radius: 10px;
+    width: 16vw;
+    border-radius: 1vw;
 }
 
 .proyects{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-top: 20px;
+    margin-top: 3vh;
 }
 
 .skills-container{
-    margin-top: 20px;
+    margin-top: 2vh;
 }
