@@ -7,16 +7,29 @@ export const Proyects = () => {
             <hr className="main-line" />
             <div className="proyects">
                 <div className="proyect">
-                    <a href="https://github.com/Anacasconi1/Cinema" target="_blank">
+                    <a href="https://padelarena.vercel.app" target="_blank">
                     <img
-                        src="cinema.png"
-                        alt="Fotos de cinema Shilence"
+                        src="padelarena.png"
+                        alt="Foto home de padel arena"
                         width={200}
                     />
-                    <h6>🎬 Cinema</h6>
+                    <h6>🎾 Padel Arena</h6>
                     <p>
-                        Javascript, Express, Axios, Mongoose, MongoDB y
-                        Bootstrap
+                        TypeScript, Node.js, NestJS, PostgreSQL con TypeORM, JWT, Cloudinary, Next.js, Tailwind CSS, NextAuth.js, WebSockets, API de Google Map.
+                    </p>
+                    </a>
+                </div>
+                <div className="proyect">
+                    <a href="https://github.com/Anacasconi1/Ecommerce-backend-pm4" target="_blank">
+                    <img
+                        src="e-commerce.png"
+                        alt="Fotos de Documentacion E-commerce backend"
+                        width={200}
+                    />
+                    <h6>👩‍💻 E-Commerce Backend</h6>
+                    <p>
+                        Nest.js, Docker, Render, JWT, Bcrypt, Swagger, TypeORM,
+                        PostgreSQL, Cloudinary, entre otras.
                     </p>
                     </a>
                 </div>
@@ -35,16 +48,16 @@ export const Proyects = () => {
                     </a>
                 </div>
                 <div className="proyect">
-                    <a href="https://github.com/Anacasconi1/Ecommerce-backend-pm4" target="_blank">
+                    <a href="https://github.com/Anacasconi1/Cinema" target="_blank">
                     <img
-                        src="e-commerce.png"
-                        alt="Fotos de Documentacion E-commerce backend"
+                        src="cinema.png"
+                        alt="Fotos de cinema Shilence"
                         width={200}
                     />
-                    <h6>👩‍💻 E-Commerce Backend</h6>
+                    <h6>🎬 Cinema</h6>
                     <p>
-                        Nest.js, Docker, Render, JWT, Bcrypt, Swagger, TypeORM,
-                        PostgreSQL, Cloudinary, entre otras.
+                        Javascript, Express, Axios, Mongoose, MongoDB y
+                        Bootstrap
                     </p>
                     </a>
                 </div>
@@ -61,11 +74,11 @@ export const Proyects = () => {
                     <li>NoSQL(MongoDB)</li>
                     <li>TypeORM</li>
                     <li>Express</li>
-                    <li>Git Kraken</li>
                     <li>Docker</li>
-                    <li>Jest (básico)</li>
-                    <li>CI/CD</li>
                     <li>Git Flow</li>
+                    <li>Socket.io</li>
+                    <li>Checkout Pro (MP)</li>
+                    <li>Java (basico/aprendiendo)</li>
                 </ul>
             </div>
         </>
