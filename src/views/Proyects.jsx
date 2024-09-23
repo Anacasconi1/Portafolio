@@ -78,7 +78,6 @@ export const Proyects = () => {
                     <li>Git Flow</li>
                     <li>Socket.io</li>
                     <li>Checkout Pro (MP)</li>
-                    <li>Java (basico/aprendiendo)</li>
                 </ul>
             </div>
         </>
